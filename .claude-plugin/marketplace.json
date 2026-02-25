@@ -1,0 +1,44 @@
+{
+  "plugins": [
+    {
+      "name": "sigil",
+      "description": "Risk-adaptive development pipeline with adversarial consensus code review. Four phases (scope, explore, design, build) that scale review rigor to match task complexity — from single reviewer for low-risk changes to blind parallel agents with Codex tiebreaker for high-risk work.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Real-AI-Engineering/sigil.git"
+      },
+      "homepage": "https://github.com/Real-AI-Engineering/sigil"
+    },
+    {
+      "name": "herald",
+      "description": "Daily curated news digest for your domain. Fetches RSS feeds and Hacker News via public APIs, applies 3-layer deduplication and keyword filtering, scores and ranks the top 10 items as a grouped Markdown digest. Zero API keys, fully local.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Real-AI-Engineering/herald.git"
+      },
+      "homepage": "https://github.com/Real-AI-Engineering/herald"
+    },
+    {
+      "name": "codex-partner",
+      "description": "Use OpenAI Codex CLI as an independent verification AI alongside Claude Code. Three modes: review (independent code review with style filtering), ask (two-perspective analysis with divergence report), implement (delegate to isolated git worktree).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Real-AI-Engineering/codex-partner.git"
+      },
+      "homepage": "https://github.com/Real-AI-Engineering/codex-partner"
+    },
+    {
+      "name": "teams-field-guide",
+      "description": "Comprehensive field guide for Claude Code multi-agent systems. Covers Subagents and Agent Teams, custom agent configuration, 7 orchestration patterns, cost optimization with model distribution, known bugs with workarounds, and 26 ecosystem projects.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Real-AI-Engineering/teams-field-guide.git"
+      },
+      "homepage": "https://github.com/Real-AI-Engineering/teams-field-guide"
+    }
+  ]
+}
