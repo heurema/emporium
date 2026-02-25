@@ -1,20 +1,20 @@
-# Real-AI-Engineering Marketplace
+# Emporium
 
 Claude Code plugin marketplace for all [Real-AI-Engineering](https://github.com/Real-AI-Engineering) tools.
 
 ## Install
 
 ```bash
-claude plugin marketplace add Real-AI-Engineering/marketplace
+claude plugin marketplace add Real-AI-Engineering/emporium
 ```
 
 Then install any plugin:
 
 ```bash
-claude plugin install sigil@real-ai-engineering
-claude plugin install herald@real-ai-engineering
-claude plugin install codex-partner@real-ai-engineering
-claude plugin install teams-field-guide@real-ai-engineering
+claude plugin install sigil@emporium
+claude plugin install herald@emporium
+claude plugin install codex-partner@emporium
+claude plugin install teams-field-guide@emporium
 ```
 
 ## Catalog
@@ -29,6 +29,14 @@ claude plugin install teams-field-guide@real-ai-engineering
 ## Adding a New Plugin
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## See Also
+
+- **[sigil](https://github.com/Real-AI-Engineering/sigil)** — risk-adaptive development pipeline with adversarial code review
+- **[herald](https://github.com/Real-AI-Engineering/herald)** — daily curated news digest plugin for Claude Code
+- **[teams-field-guide](https://github.com/Real-AI-Engineering/teams-field-guide)** — comprehensive guide to Claude Code multi-agent teams
+- **[codex-partner](https://github.com/Real-AI-Engineering/codex-partner)** — using Codex CLI as second AI alongside Claude Code
+- **[proofpack](https://github.com/Real-AI-Engineering/proofpack)** — proof-carrying CI gate for AI agent changes
 
 ## License
 
