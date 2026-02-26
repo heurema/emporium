@@ -11,9 +11,9 @@
   "category": "development",
   "source": {
     "source": "url",
-    "url": "https://github.com/Real-AI-Engineering/your-plugin.git"
+    "url": "https://github.com/heurema/your-plugin.git"
   },
-  "homepage": "https://github.com/Real-AI-Engineering/your-plugin"
+  "homepage": "https://github.com/heurema/your-plugin"
 }
 ```
 

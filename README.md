@@ -1,11 +1,11 @@
 # Emporium
 
-Claude Code plugin marketplace for all [Real-AI-Engineering](https://github.com/Real-AI-Engineering) tools.
+Claude Code plugin marketplace for all [heurema](https://github.com/heurema) open-source AI agent tools. Craft, not conjuring.
 
 ## Install
 
 ```bash
-claude plugin marketplace add Real-AI-Engineering/emporium
+claude plugin marketplace add heurema/emporium
 ```
 
 Then install any plugin:
@@ -21,10 +21,10 @@ claude plugin install teams-field-guide@emporium
 
 | Plugin | Description | Repo |
 |--------|-------------|------|
-| **sigil** | Risk-adaptive development pipeline with adversarial consensus code review | [sigil](https://github.com/Real-AI-Engineering/sigil) |
-| **herald** | Daily curated news digest — zero API keys, fully local | [herald](https://github.com/Real-AI-Engineering/herald) |
-| **codex-partner** | Use Codex CLI as independent verification AI alongside Claude Code | [codex-partner](https://github.com/Real-AI-Engineering/codex-partner) |
-| **teams-field-guide** | Comprehensive guide to Claude Code multi-agent systems | [teams-field-guide](https://github.com/Real-AI-Engineering/teams-field-guide) |
+| **sigil** | Risk-adaptive development pipeline with adversarial consensus code review | [sigil](https://github.com/heurema/sigil) |
+| **herald** | Daily curated news digest — zero API keys, fully local | [herald](https://github.com/heurema/herald) |
+| **codex-partner** | Use Codex CLI as independent verification AI alongside Claude Code | [codex-partner](https://github.com/heurema/codex-partner) |
+| **teams-field-guide** | Comprehensive guide to Claude Code multi-agent systems | [teams-field-guide](https://github.com/heurema/teams-field-guide) |
 
 ## Adding a New Plugin
 
@@ -32,11 +32,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## See Also
 
-- **[sigil](https://github.com/Real-AI-Engineering/sigil)** — risk-adaptive development pipeline with adversarial code review
-- **[herald](https://github.com/Real-AI-Engineering/herald)** — daily curated news digest plugin for Claude Code
-- **[teams-field-guide](https://github.com/Real-AI-Engineering/teams-field-guide)** — comprehensive guide to Claude Code multi-agent teams
-- **[codex-partner](https://github.com/Real-AI-Engineering/codex-partner)** — using Codex CLI as second AI alongside Claude Code
-- **[proofpack](https://github.com/Real-AI-Engineering/proofpack)** — proof-carrying CI gate for AI agent changes
+- **[sigil](https://github.com/heurema/sigil)** — risk-adaptive development pipeline with adversarial code review
+- **[herald](https://github.com/heurema/herald)** — daily curated news digest plugin for Claude Code
+- **[teams-field-guide](https://github.com/heurema/teams-field-guide)** — comprehensive guide to Claude Code multi-agent teams
+- **[codex-partner](https://github.com/heurema/codex-partner)** — using Codex CLI as second AI alongside Claude Code
+- **[proofpack](https://github.com/heurema/proofpack)** — proof-carrying CI gate for AI agent changes
 
 ## License
 
