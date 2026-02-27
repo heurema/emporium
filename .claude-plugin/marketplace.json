@@ -39,6 +39,16 @@
         "url": "https://github.com/heurema/teams-field-guide.git"
       },
       "homepage": "https://github.com/heurema/teams-field-guide"
+    },
+    {
+      "name": "sentinel",
+      "description": "Core sentiment stack for crypto trading — Fear & Greed Index, news scanning with sentiment scoring, social intelligence via LunarCrush, and prediction market odds from Polymarket. Unified SignalOutput v1 format. Three skills work free, one requires API key.",
+      "category": "trading",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/forgequant/sentinel.git"
+      },
+      "homepage": "https://github.com/forgequant/sentinel"
     }
   ]
 }
