@@ -41,6 +41,16 @@
       "homepage": "https://github.com/heurema/teams-field-guide"
     },
     {
+      "name": "anvil",
+      "description": "Plugin dev/test toolkit for heurema. Scaffold new plugins from templates, validate structure and conventions with 5 deterministic Python validators, test hooks with fixture-driven runner, and review quality with a 20-item checklist agent.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/anvil.git"
+      },
+      "homepage": "https://github.com/heurema/anvil"
+    },
+    {
       "name": "sentinel",
       "description": "Core sentiment stack for crypto trading — Fear & Greed Index, news scanning with sentiment scoring, social intelligence via LunarCrush, and prediction market odds from Polymarket. Unified SignalOutput v1 format. Three skills work free, one requires API key.",
       "category": "trading",
