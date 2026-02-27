@@ -51,6 +51,16 @@
       "homepage": "https://github.com/heurema/anvil"
     },
     {
+      "name": "reporter",
+      "description": "Report bugs, request features, and ask questions for any heurema product. Auto-detects repo, collects environment context, submits GitHub issues via gh CLI with clipboard fallback.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/reporter.git"
+      },
+      "homepage": "https://github.com/heurema/reporter"
+    },
+    {
       "name": "sentinel",
       "description": "Core sentiment stack for crypto trading — Fear & Greed Index, news scanning with sentiment scoring, social intelligence via LunarCrush, and prediction market odds from Polymarket. Unified SignalOutput v1 format. Three skills work free, one requires API key.",
       "category": "trading",
