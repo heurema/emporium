@@ -76,6 +76,16 @@
         "url": "https://github.com/forgequant/sentinel.git"
       },
       "homepage": "https://github.com/forgequant/sentinel"
+    },
+    {
+      "name": "genesis",
+      "description": "Evolve startup ideas through AI-powered natural selection. 3 agent personas — Generator, Critic, Refiner — compete in a memetic algorithm with 8-dimension scoring, constraint enforcement, and actionable execution blueprints.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/genesis.git"
+      },
+      "homepage": "https://github.com/heurema/genesis"
     }
   ]
 }
