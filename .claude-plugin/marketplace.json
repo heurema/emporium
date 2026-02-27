@@ -1,4 +1,11 @@
 {
+  "name": "emporium",
+  "owner": {
+    "name": "heurema"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace for heurema open-source AI agent tools"
+  },
   "plugins": [
     {
       "name": "sigil",
