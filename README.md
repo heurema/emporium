@@ -4,9 +4,11 @@ Claude Code plugin marketplace for all [heurema](https://github.com/heurema) ope
 
 ## Install
 
+<!-- INSTALL:START — auto-synced from emporium/INSTALL_REFERENCE.md -->
 ```bash
 claude plugin marketplace add heurema/emporium
 ```
+<!-- INSTALL:END -->
 
 Then install any plugin:
 

@@ -305,6 +305,54 @@ def check_site_meta_completeness(findings: list[Finding]) -> None:
                 findings.append(Finding("LOW", name, "No tags in plugin-meta.json"))
 
 
+INSTALL_START_RE = re.compile(r"<!--\s*INSTALL:START\b")
+INSTALL_END_RE = re.compile(r"<!--\s*INSTALL:END\b")
+
+
+def check_install_instructions(findings: list[Finding]) -> None:
+    """Verify install markers and commands in plugin READMEs."""
+    for plugin_dir in sorted(PLUGIN_DIRS):
+        name = plugin_dir.name
+        readme_path = plugin_dir / "README.md"
+        if not readme_path.exists():
+            continue
+
+        text = readme_path.read_text(encoding="utf-8")
+
+        # Check for INSTALL markers
+        start_match = INSTALL_START_RE.search(text)
+        end_match = INSTALL_END_RE.search(text)
+
+        if not start_match or not end_match:
+            findings.append(
+                Finding("MEDIUM", name, "README.md missing INSTALL:START/END markers (gradual adoption)")
+            )
+            continue
+
+        # Extract content between markers
+        install_block = text[start_match.end():end_match.start()]
+
+        # Verify marketplace add command
+        if "marketplace add heurema/emporium" not in install_block:
+            findings.append(
+                Finding("HIGH", name, "Install block missing 'claude plugin marketplace add heurema/emporium'")
+            )
+
+        # Verify plugin install command (skip for emporium itself)
+        pj = get_plugin_json(plugin_dir)
+        plugin_name = pj.get("name", name) if isinstance(pj, dict) and pj else name
+        expected_install = f"plugin install {plugin_name}@emporium"
+        if expected_install not in install_block and name != "emporium":
+            findings.append(
+                Finding(
+                    "HIGH",
+                    name,
+                    f"Install block missing 'claude {expected_install}'",
+                    {"expected": expected_install},
+                )
+            )
+
+
 def main() -> int:
     json_mode = "--json" in sys.argv
     findings: list[Finding] = []
@@ -322,6 +370,7 @@ def main() -> int:
     check_description_consistency(findings)
     check_emporium_vs_site(findings)
     check_site_meta_completeness(findings)
+    check_install_instructions(findings)
 
     if json_mode:
         print(json.dumps([f.to_dict() for f in findings], indent=2))
