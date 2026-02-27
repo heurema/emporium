@@ -21,14 +21,14 @@
       "homepage": "https://github.com/heurema/herald"
     },
     {
-      "name": "codex-partner",
-      "description": "Use OpenAI Codex CLI as an independent verification AI alongside Claude Code. Three modes: review (independent code review with style filtering), ask (two-perspective analysis with divergence report), implement (delegate to isolated git worktree).",
+      "name": "arbiter",
+      "description": "Multi-AI orchestrator — dispatch to Codex CLI and Gemini CLI for review, ask, implement, and panel modes. Replaces codex-partner with multi-provider support and compared results.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/codex-partner.git"
+        "url": "https://github.com/heurema/arbiter.git"
       },
-      "homepage": "https://github.com/heurema/codex-partner"
+      "homepage": "https://github.com/heurema/arbiter"
     },
     {
       "name": "teams-field-guide",
