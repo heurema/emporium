@@ -8,24 +8,14 @@
   },
   "plugins": [
     {
-      "name": "sigil",
-      "description": "Risk-adaptive development pipeline with adversarial consensus code review. Four phases (scope, explore, design, build) that scale review rigor to match task complexity — from single reviewer for low-risk changes to blind parallel agents with Codex tiebreaker for high-risk work.",
+      "name": "anvil",
+      "description": "Plugin dev/test toolkit for heurema. Scaffold new plugins from templates, validate structure and conventions with 5 deterministic Python validators, test hooks with fixture-driven runner, and review quality with a 20-item checklist agent.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/sigil.git"
+        "url": "https://github.com/heurema/anvil.git"
       },
-      "homepage": "https://github.com/heurema/sigil"
-    },
-    {
-      "name": "herald",
-      "description": "Daily curated news digest for your domain. Fetches RSS feeds and Hacker News via public APIs, applies 3-layer deduplication and keyword filtering, scores and ranks the top 10 items as a grouped Markdown digest. Zero API keys, fully local.",
-      "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/heurema/herald.git"
-      },
-      "homepage": "https://github.com/heurema/herald"
+      "homepage": "https://github.com/heurema/anvil"
     },
     {
       "name": "arbiter",
@@ -38,24 +28,54 @@
       "homepage": "https://github.com/heurema/arbiter"
     },
     {
-      "name": "teams-field-guide",
-      "description": "Comprehensive field guide for Claude Code multi-agent systems. Covers Subagents and Agent Teams, custom agent configuration, 7 orchestration patterns, cost optimization with model distribution, known bugs with workarounds, and 26 ecosystem projects.",
+      "name": "forge",
+      "description": "Plugin lifecycle manager for heurema org. Scaffold, verify, register, and manage the full plugin lifecycle with automated quality gates.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/teams-field-guide.git"
+        "url": "https://github.com/heurema/forge.git"
       },
-      "homepage": "https://github.com/heurema/teams-field-guide"
+      "homepage": "https://github.com/heurema/forge"
     },
     {
-      "name": "anvil",
-      "description": "Plugin dev/test toolkit for heurema. Scaffold new plugins from templates, validate structure and conventions with 5 deterministic Python validators, test hooks with fixture-driven runner, and review quality with a 20-item checklist agent.",
+      "name": "genesis",
+      "description": "Evolve startup ideas through AI-powered natural selection. 3 agent personas — Generator, Critic, Refiner — compete in a memetic algorithm with 8-dimension scoring, constraint enforcement, and actionable execution blueprints.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/genesis.git"
+      },
+      "homepage": "https://github.com/heurema/genesis"
+    },
+    {
+      "name": "glyph",
+      "description": "Generate polished terminal demo GIFs from natural language descriptions. Synthesizes asciicast recordings with realistic typing, configurable themes, and built-in PII auditing — no real shell commands executed.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/anvil.git"
+        "url": "https://github.com/heurema/glyph.git"
       },
-      "homepage": "https://github.com/heurema/anvil"
+      "homepage": "https://github.com/heurema/glyph"
+    },
+    {
+      "name": "herald",
+      "description": "Daily curated news digest for your domain. Fetches RSS feeds and Hacker News via public APIs, applies 3-layer deduplication and keyword filtering, scores and ranks the top 10 items as a grouped Markdown digest. Zero API keys, fully local.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/herald.git"
+      },
+      "homepage": "https://github.com/heurema/herald"
+    },
+    {
+      "name": "oracle",
+      "description": "On-chain and macro data signals for crypto trading — options volatility via Deribit, exchange flows, prediction markets. Structured signal/v1 output. No API keys required.",
+      "category": "trading",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/forgequant/oracle.git"
+      },
+      "homepage": "https://github.com/forgequant/oracle"
     },
     {
       "name": "reporter",
@@ -78,34 +98,24 @@
       "homepage": "https://github.com/forgequant/sentinel"
     },
     {
-      "name": "glyph",
-      "description": "Generate polished terminal demo GIFs from natural language descriptions. Synthesizes asciicast recordings with realistic typing, configurable themes, and built-in PII auditing — no real shell commands executed.",
+      "name": "sigil",
+      "description": "Risk-adaptive development pipeline with adversarial consensus code review. Four phases (scope, explore, design, build) that scale review rigor to match task complexity — from single reviewer for low-risk changes to blind parallel agents with Codex tiebreaker for high-risk work.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/glyph.git"
+        "url": "https://github.com/heurema/sigil.git"
       },
-      "homepage": "https://github.com/heurema/glyph"
+      "homepage": "https://github.com/heurema/sigil"
     },
     {
-      "name": "genesis",
-      "description": "Evolve startup ideas through AI-powered natural selection. 3 agent personas — Generator, Critic, Refiner — compete in a memetic algorithm with 8-dimension scoring, constraint enforcement, and actionable execution blueprints.",
-      "category": "productivity",
+      "name": "teams-field-guide",
+      "description": "Comprehensive field guide for Claude Code multi-agent systems. Covers Subagents and Agent Teams, custom agent configuration, 7 orchestration patterns, cost optimization with model distribution, known bugs with workarounds, and 26 ecosystem projects.",
+      "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/genesis.git"
+        "url": "https://github.com/heurema/teams-field-guide.git"
       },
-      "homepage": "https://github.com/heurema/genesis"
-    },
-    {
-      "name": "oracle",
-      "description": "On-chain and macro data signals for crypto trading — options volatility via Deribit, exchange flows, prediction markets. Structured signal/v1 output. No API keys required.",
-      "category": "trading",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/forgequant/oracle.git"
-      },
-      "homepage": "https://github.com/forgequant/oracle"
+      "homepage": "https://github.com/heurema/teams-field-guide"
     }
   ]
 }
