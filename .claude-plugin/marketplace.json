@@ -86,6 +86,16 @@
         "url": "https://github.com/heurema/genesis.git"
       },
       "homepage": "https://github.com/heurema/genesis"
+    },
+    {
+      "name": "oracle",
+      "description": "On-chain and macro data signals for crypto trading — options volatility via Deribit, exchange flows, prediction markets. Structured signal/v1 output. No API keys required.",
+      "category": "trading",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/forgequant/oracle.git"
+      },
+      "homepage": "https://github.com/forgequant/oracle"
     }
   ]
 }

@@ -19,6 +19,9 @@ claude plugin marketplace add heurema/emporium
 | arbiter | `claude plugin install arbiter@emporium` |
 | anvil | `claude plugin install anvil@emporium` |
 | reporter | `claude plugin install reporter@emporium` |
+| genesis | `claude plugin install genesis@emporium` |
+| sentinel | `claude plugin install sentinel@emporium` |
+| oracle | `claude plugin install oracle@emporium` |
 | teams-field-guide | `claude plugin install teams-field-guide@emporium` |
 
 ## Expected README Snippet
