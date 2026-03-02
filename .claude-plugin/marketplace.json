@@ -99,7 +99,7 @@
     },
     {
       "name": "sigil",
-      "description": "Risk-adaptive development pipeline with adversarial consensus code review. Four phases (scope, explore, design, build) that scale review rigor to match task complexity — from single reviewer for low-risk changes to blind parallel agents with Codex tiebreaker for high-risk work.",
+      "description": "Evidence-driven development pipeline with multi-model code review. Four phases (contract, execute, audit, pack) that generate code against a contract, audit with 3 independent AI models (Claude + Codex + Gemini), and package proof for CI.",
       "category": "development",
       "source": {
         "source": "url",
