@@ -13,7 +13,7 @@ claude plugin marketplace add heurema/emporium
 Then install any plugin:
 
 ```bash
-claude plugin install sigil@emporium
+claude plugin install signum@emporium
 claude plugin install herald@emporium
 claude plugin install arbiter@emporium
 claude plugin install anvil@emporium
@@ -28,7 +28,7 @@ claude plugin install teams-field-guide@emporium
 
 | Plugin | Description | Repo |
 |--------|-------------|------|
-| **sigil** | Risk-adaptive development pipeline with adversarial consensus code review | [sigil](https://github.com/heurema/sigil) |
+| **signum** | Risk-adaptive development pipeline with adversarial consensus code review | [signum](https://github.com/heurema/signum) |
 | **herald** | Daily curated news digest — zero API keys, fully local | [herald](https://github.com/heurema/herald) |
 | **arbiter** | Multi-AI orchestrator — Codex CLI + Gemini CLI for review, ask, implement, panel | [arbiter](https://github.com/heurema/arbiter) |
 | **anvil** | Plugin dev/test toolkit — scaffold, validate, test, review | [anvil](https://github.com/heurema/anvil) |
@@ -44,7 +44,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## See Also
 
-- **[sigil](https://github.com/heurema/sigil)** — risk-adaptive development pipeline with adversarial code review
+- **[signum](https://github.com/heurema/signum)** — risk-adaptive development pipeline with adversarial code review
 - **[herald](https://github.com/heurema/herald)** — daily curated news digest plugin for Claude Code
 - **[arbiter](https://github.com/heurema/arbiter)** — multi-AI orchestrator (Codex + Gemini)
 - **[anvil](https://github.com/heurema/anvil)** — plugin dev/test toolkit

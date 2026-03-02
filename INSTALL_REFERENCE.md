@@ -14,7 +14,7 @@ claude plugin marketplace add heurema/emporium
 
 | Plugin | Command |
 |--------|---------|
-| sigil | `claude plugin install sigil@emporium` |
+| signum | `claude plugin install signum@emporium` |
 | herald | `claude plugin install herald@emporium` |
 | arbiter | `claude plugin install arbiter@emporium` |
 | anvil | `claude plugin install anvil@emporium` |
