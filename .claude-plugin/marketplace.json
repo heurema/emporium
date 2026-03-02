@@ -98,14 +98,14 @@
       "homepage": "https://github.com/forgequant/sentinel"
     },
     {
-      "name": "sigil",
+      "name": "signum",
       "description": "Evidence-driven development pipeline with multi-model code review. Four phases (contract, execute, audit, pack) that generate code against a contract, audit with 3 independent AI models (Claude + Codex + Gemini), and package proof for CI.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/sigil.git"
+        "url": "https://github.com/heurema/signum.git"
       },
-      "homepage": "https://github.com/heurema/sigil"
+      "homepage": "https://github.com/heurema/signum"
     },
     {
       "name": "teams-field-guide",
