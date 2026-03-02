@@ -47,10 +47,10 @@ class TestFinding(TestCase):
         self.assertIn("a=1", s)
 
     def test_to_dict(self):
-        f = Finding("HIGH", "sigil", "Missing field")
+        f = Finding("HIGH", "signum", "Missing field")
         d = f.to_dict()
         self.assertEqual(d["severity"], "HIGH")
-        self.assertEqual(d["plugin"], "sigil")
+        self.assertEqual(d["plugin"], "signum")
 
 
 if __name__ == "__main__":
