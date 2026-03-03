@@ -14,14 +14,17 @@ claude plugin marketplace add heurema/emporium
 
 | Plugin | Command |
 |--------|---------|
-| signum | `claude plugin install signum@emporium` |
-| herald | `claude plugin install herald@emporium` |
-| arbiter | `claude plugin install arbiter@emporium` |
 | anvil | `claude plugin install anvil@emporium` |
-| reporter | `claude plugin install reporter@emporium` |
+| arbiter | `claude plugin install arbiter@emporium` |
+| content-ops | `claude plugin install content-ops@emporium` |
+| forge | `claude plugin install forge@emporium` |
 | genesis | `claude plugin install genesis@emporium` |
-| sentinel | `claude plugin install sentinel@emporium` |
+| glyph | `claude plugin install glyph@emporium` |
+| herald | `claude plugin install herald@emporium` |
 | oracle | `claude plugin install oracle@emporium` |
+| reporter | `claude plugin install reporter@emporium` |
+| sentinel | `claude plugin install sentinel@emporium` |
+| signum | `claude plugin install signum@emporium` |
 | teams-field-guide | `claude plugin install teams-field-guide@emporium` |
 
 ## Expected README Snippet
