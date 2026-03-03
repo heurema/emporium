@@ -8,6 +8,16 @@
   },
   "plugins": [
     {
+      "name": "content-ops",
+      "description": "Content operations for indie developers who ship in public. Create, QA, and distribute technical articles to dev.to, Hashnode, Twitter/X, and Hacker News.",
+      "category": "publishing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/content-ops.git"
+      },
+      "homepage": "https://github.com/heurema/content-ops"
+    },
+    {
       "name": "anvil",
       "description": "Plugin dev/test toolkit for heurema. Scaffold new plugins from templates, validate structure and conventions with 5 deterministic Python validators, test hooks with fixture-driven runner, and review quality with a 20-item checklist agent.",
       "category": "development",
