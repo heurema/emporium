@@ -21,9 +21,7 @@ claude plugin marketplace add heurema/emporium
 | genesis | `claude plugin install genesis@emporium` |
 | glyph | `claude plugin install glyph@emporium` |
 | herald | `claude plugin install herald@emporium` |
-| oracle | `claude plugin install oracle@emporium` |
 | reporter | `claude plugin install reporter@emporium` |
-| sentinel | `claude plugin install sentinel@emporium` |
 | signum | `claude plugin install signum@emporium` |
 | teams-field-guide | `claude plugin install teams-field-guide@emporium` |
 
