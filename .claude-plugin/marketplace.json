@@ -8,16 +8,6 @@
   },
   "plugins": [
     {
-      "name": "content-ops",
-      "description": "Content operations for indie developers who ship in public. Create, QA, and distribute technical articles to dev.to, Hashnode, Twitter/X, and Hacker News.",
-      "category": "publishing",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/heurema/content-ops.git"
-      },
-      "homepage": "https://github.com/heurema/content-ops"
-    },
-    {
       "name": "anvil",
       "description": "Plugin dev/test toolkit for heurema. Scaffold new plugins from templates, validate structure and conventions with 5 deterministic Python validators, test hooks with fixture-driven runner, and review quality with a 20-item checklist agent.",
       "category": "development",
@@ -38,8 +28,28 @@
       "homepage": "https://github.com/heurema/arbiter"
     },
     {
+      "name": "content-ops",
+      "description": "Content operations for indie developers who ship in public. Create, QA, and distribute technical articles to dev.to, Hashnode, Twitter/X, and Hacker News.",
+      "category": "publishing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/content-ops.git"
+      },
+      "homepage": "https://github.com/heurema/content-ops"
+    },
+    {
+      "name": "delve",
+      "description": "Deep research orchestrator — autonomous multi-agent research with stage-gated pipeline, adversarial claim verification, and resume support. 5 stages: SCAN, DECOMPOSE, DIVE, VERIFY, SYNTHESIZE.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/delve.git"
+      },
+      "homepage": "https://github.com/heurema/delve"
+    },
+    {
       "name": "forge",
-      "description": "Plugin lifecycle manager for heurema org. Scaffold, verify, register, and manage the full plugin lifecycle with automated quality gates.",
+      "description": "Plugin lifecycle manager for heurema org. Scaffold, verify, register plugins.",
       "category": "development",
       "source": {
         "source": "url",
@@ -88,26 +98,6 @@
       "homepage": "https://github.com/heurema/reporter"
     },
     {
-      "name": "signum",
-      "description": "Evidence-driven development pipeline with multi-model code review. Four phases (contract, execute, audit, pack) that generate code against a contract, audit with 3 independent AI models (Claude + Codex + Gemini), and package proof for CI.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/heurema/signum.git"
-      },
-      "homepage": "https://github.com/heurema/signum"
-    },
-    {
-      "name": "delve",
-      "description": "Deep research orchestrator — autonomous multi-agent research with stage-gated pipeline, adversarial claim verification, and resume support. 5 stages: SCAN, DECOMPOSE, DIVE, VERIFY, SYNTHESIZE.",
-      "category": "research",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/heurema/delve.git"
-      },
-      "homepage": "https://github.com/heurema/delve"
-    },
-    {
       "name": "sentinel",
       "description": "AI Workstation Security Audit — 18 deterministic checks for secrets exposure, MCP trust, plugin permissions, hook coverage, trust boundaries, and configuration hygiene. Scored security posture with guided remediation and report diffing.",
       "category": "development",
@@ -116,6 +106,16 @@
         "url": "https://github.com/heurema/sentinel.git"
       },
       "homepage": "https://github.com/heurema/sentinel"
+    },
+    {
+      "name": "signum",
+      "description": "Evidence-driven development pipeline with multi-model code review. Four phases (contract, execute, audit, pack) that generate code against a contract, audit with 3 independent AI models (Claude + Codex + Gemini), and package proof for CI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/signum.git"
+      },
+      "homepage": "https://github.com/heurema/signum"
     },
     {
       "name": "teams-field-guide",
