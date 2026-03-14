@@ -89,7 +89,8 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/herald.git"
+        "url": "https://github.com/heurema/herald.git",
+        "ref": "v2.0.0"
       },
       "homepage": "https://github.com/heurema/herald"
     },
@@ -99,7 +100,8 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/reporter.git"
+        "url": "https://github.com/heurema/reporter.git",
+        "ref": "v0.1.0"
       },
       "homepage": "https://github.com/heurema/reporter"
     },
