@@ -13,7 +13,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/anvil.git"
+        "url": "https://github.com/heurema/anvil.git",
+        "ref": "v0.1.0"
       },
       "homepage": "https://github.com/heurema/anvil"
     },
@@ -33,7 +34,8 @@
       "category": "publishing",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/content-ops.git"
+        "url": "https://github.com/heurema/content-ops.git",
+        "ref": "v0.1.0"
       },
       "homepage": "https://github.com/heurema/content-ops"
     },
@@ -54,7 +56,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/forge.git"
+        "url": "https://github.com/heurema/forge.git",
+        "ref": "v0.3.0"
       },
       "homepage": "https://github.com/heurema/forge"
     },
@@ -64,7 +67,8 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/genesis.git"
+        "url": "https://github.com/heurema/genesis.git",
+        "ref": "v0.1.0"
       },
       "homepage": "https://github.com/heurema/genesis"
     },
@@ -74,7 +78,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/glyph.git"
+        "url": "https://github.com/heurema/glyph.git",
+        "ref": "v0.1.0"
       },
       "homepage": "https://github.com/heurema/glyph"
     },
@@ -104,7 +109,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/sentinel.git"
+        "url": "https://github.com/heurema/sentinel.git",
+        "ref": "v0.1.0"
       },
       "homepage": "https://github.com/heurema/sentinel"
     },
