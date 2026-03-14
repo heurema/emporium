@@ -113,7 +113,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/heurema/signum.git"
+        "url": "https://github.com/heurema/signum.git",
+        "ref": "v4.1.0"
       },
       "homepage": "https://github.com/heurema/signum"
     },
