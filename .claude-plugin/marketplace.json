@@ -118,12 +118,12 @@
     },
     {
       "name": "signum",
-      "description": "Evidence-driven development pipeline with multi-model code review. Four phases (contract, execute, audit, pack) that generate code against a contract, audit with 3 independent AI models (Claude + Codex + Gemini), and package proof for CI.",
+      "description": "Evidence-driven development pipeline with multi-model code review. Four phases (contract, execute, audit, pack) that generate code against a contract, audit with 3 independent AI models (Claude + Codex + Gemini), and package proof for CI. Includes /signum init for bootstrapping project context.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/heurema/signum.git",
-        "ref": "v4.6.1"
+        "ref": "v4.8.0"
       },
       "homepage": "https://github.com/heurema/signum"
     },
