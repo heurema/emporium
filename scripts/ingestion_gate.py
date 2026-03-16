@@ -21,6 +21,7 @@ from lib.rubric import (
     check_no_shell_true,
     check_line_count,
     check_required_sections,
+    check_examples_cap,
 )
 
 
@@ -37,6 +38,7 @@ _SAFETY_CHECKS = [
     ("shell_true", check_no_shell_true),
     ("line_count", check_line_count),
     ("required_sections", check_required_sections),
+    ("examples_cap", check_examples_cap),
 ]
 
 

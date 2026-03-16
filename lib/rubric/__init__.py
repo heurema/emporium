@@ -400,6 +400,41 @@ def check_has_examples(plugin_root: str | Path) -> tuple[bool, str]:
     return False, "no examples found (no ``` code blocks and no ## Examples section)"
 
 
+def check_examples_cap(plugin_root: str | Path) -> tuple[bool, str]:
+    """Check that SKILL.md ## Examples section has at most 3 examples.
+
+    Reinforced ICL saturates at ~4 demos and degrades after.
+    Max 3 examples keeps skills within the effective range.
+    """
+    root = Path(plugin_root)
+    skill_md = _find_skill_md(root)
+    if skill_md is None:
+        return True, "no SKILL.md to check"
+
+    text, err = _read_text(skill_md)
+    if text is None:
+        return False, err
+
+    # Find ## Examples section and count <example> tags or ### sub-headings within it
+    examples_match = re.search(r"^##\s+Examples?\s*$", text, re.MULTILINE | re.IGNORECASE)
+    if not examples_match:
+        return True, "no ## Examples section found"
+
+    # Extract text from ## Examples to next ## heading
+    start = examples_match.end()
+    next_section = re.search(r"^##\s+", text[start:], re.MULTILINE)
+    section_text = text[start:start + next_section.start()] if next_section else text[start:]
+
+    # Count examples: <example> tags or ### sub-headings
+    example_tags = len(re.findall(r"<example>", section_text, re.IGNORECASE))
+    sub_headings = len(re.findall(r"^###\s+", section_text, re.MULTILINE))
+    count = max(example_tags, sub_headings) or (1 if section_text.strip() else 0)
+
+    if count > 3:
+        return False, f"## Examples has {count} examples (max: 3, per many-shot ICL saturation research)"
+    return True, f"## Examples has {count} example(s) (within cap of 3)"
+
+
 def check_semver(plugin_root: str | Path) -> tuple[bool, str]:
     """Check that version in plugin.json follows semantic versioning (X.Y.Z)."""
     root = Path(plugin_root)
