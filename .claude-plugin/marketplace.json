@@ -90,7 +90,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/heurema/herald.git",
-        "ref": "v2.0.0"
+        "ref": "v2.1.0"
       },
       "homepage": "https://github.com/heurema/herald"
     },
