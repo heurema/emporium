@@ -20,7 +20,7 @@
     },
     {
       "name": "arbiter",
-      "description": "Multi-AI orchestrator — dispatch to Codex CLI and Gemini CLI for review, ask, implement, and panel modes. Replaces codex-partner with multi-provider support and compared results.",
+      "description": "Multi-AI orchestrator \u2014 dispatch to Codex CLI and Gemini CLI for review, ask, implement, and panel modes. Replaces codex-partner with multi-provider support and compared results.",
       "category": "development",
       "source": {
         "source": "url",
@@ -41,7 +41,7 @@
     },
     {
       "name": "delve",
-      "description": "Deep research orchestrator — autonomous multi-agent research with stage-gated pipeline, adversarial claim verification, and resume support. 5 stages: SCAN, DECOMPOSE, DIVE, VERIFY, SYNTHESIZE.",
+      "description": "Deep research orchestrator \u2014 autonomous multi-agent research with stage-gated pipeline, adversarial claim verification, and resume support. 5 stages: SCAN, DECOMPOSE, DIVE, VERIFY, SYNTHESIZE.",
       "category": "research",
       "source": {
         "source": "url",
@@ -63,7 +63,7 @@
     },
     {
       "name": "genesis",
-      "description": "Evolve startup ideas through AI-powered natural selection. 3 agent personas — Generator, Critic, Refiner — compete in a memetic algorithm with 8-dimension scoring, constraint enforcement, and actionable execution blueprints.",
+      "description": "Evolve startup ideas through AI-powered natural selection. 3 agent personas \u2014 Generator, Critic, Refiner \u2014 compete in a memetic algorithm with 8-dimension scoring, constraint enforcement, and actionable execution blueprints.",
       "category": "productivity",
       "source": {
         "source": "url",
@@ -74,7 +74,7 @@
     },
     {
       "name": "glyph",
-      "description": "Generate polished terminal demo GIFs from natural language descriptions. Synthesizes asciicast recordings with realistic typing, configurable themes, and built-in PII auditing — no real shell commands executed.",
+      "description": "Generate polished terminal demo GIFs from natural language descriptions. Synthesizes asciicast recordings with realistic typing, configurable themes, and built-in PII auditing \u2014 no real shell commands executed.",
       "category": "development",
       "source": {
         "source": "url",
@@ -107,7 +107,7 @@
     },
     {
       "name": "sentinel",
-      "description": "AI Workstation Security Audit — 18 deterministic checks for secrets exposure, MCP trust, plugin permissions, hook coverage, trust boundaries, and configuration hygiene. Scored security posture with guided remediation and report diffing.",
+      "description": "AI Workstation Security Audit \u2014 18 deterministic checks for secrets exposure, MCP trust, plugin permissions, hook coverage, trust boundaries, and configuration hygiene. Scored security posture with guided remediation and report diffing.",
       "category": "development",
       "source": {
         "source": "url",
@@ -123,9 +123,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/heurema/signum.git",
-        "ref": "v4.8.0"
+        "ref": "v4.9.0"
       },
-      "homepage": "https://github.com/heurema/signum"
+      "homepage": "https://github.com/heurema/signum",
+      "version": "4.9.0"
     },
     {
       "name": "teams-field-guide",
