@@ -148,6 +148,17 @@
         "ref": "v0.3.1"
       },
       "homepage": "https://github.com/heurema/watchdog"
+    },
+    {
+      "name": "brainstorm",
+      "description": "Multi-model brainstorming via deliberation loops — universal ideation using Claude, Codex, and Gemini with rich personas, Socratic questioning, and human steering.",
+      "category": "creative",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heurema/brainstorm.git",
+        "ref": "v0.1.0"
+      },
+      "homepage": "https://github.com/heurema/brainstorm"
     }
   ]
 }
