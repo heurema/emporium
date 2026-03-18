@@ -8,17 +8,6 @@
   },
   "plugins": [
     {
-      "name": "anvil",
-      "description": "Plugin dev/test toolkit for heurema. Scaffold new plugins from templates, validate structure and conventions with 5 deterministic Python validators, test hooks with fixture-driven runner, and review quality with a 20-item checklist agent.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/heurema/anvil.git",
-        "ref": "v0.1.0"
-      },
-      "homepage": "https://github.com/heurema/anvil"
-    },
-    {
       "name": "arbiter",
       "description": "Multi-AI orchestrator \u2014 dispatch to Codex CLI and Gemini CLI for review, ask, implement, and panel modes. Replaces codex-partner with multi-provider support and compared results.",
       "category": "development",
@@ -49,17 +38,6 @@
         "ref": "v0.8.1"
       },
       "homepage": "https://github.com/heurema/delve"
-    },
-    {
-      "name": "forge",
-      "description": "Plugin lifecycle manager for heurema org. Scaffold, verify, register plugins.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/heurema/forge.git",
-        "ref": "v0.3.0"
-      },
-      "homepage": "https://github.com/heurema/forge"
     },
     {
       "name": "genesis",
