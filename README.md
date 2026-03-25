@@ -1,6 +1,19 @@
-# Emporium
+```
+                                   _
+  ___  ____ ___  ____  ____  _____(_)_  ______ ___
+ / _ \/ __ `__ \/ __ \/ __ \/ ___/ / / / / __ `__ \
+/  __/ / / / / / /_/ / /_/ / /  / / /_/ / / / / / /
+\___/_/ /_/ /_/ .___/\____/_/  /_/\__,_/_/ /_/ /_/
+             /_/
+```
 
-Claude Code plugin marketplace for all [heurema](https://github.com/heurema) open-source AI agent tools. Craft, not conjuring.
+**Claude Code plugin marketplace.**
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+> All [heurema](https://github.com/heurema) open-source AI agent tools. Craft, not conjuring.
+
+---
 
 ## Install
 
