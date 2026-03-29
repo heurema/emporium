@@ -14,10 +14,10 @@
             "source": {
                 "source": "url",
                 "url": "https://github.com/heurema/arbiter.git",
-                "ref": "v0.4.1"
+                "ref": "v0.4.2"
             },
             "homepage": "https://github.com/heurema/arbiter",
-            "version": "0.4.1"
+            "version": "0.4.2"
         },
         {
             "name": "content-ops",
@@ -37,9 +37,10 @@
             "source": {
                 "source": "url",
                 "url": "https://github.com/heurema/delve.git",
-                "ref": "v0.8.1"
+                "ref": "v0.8.2"
             },
-            "homepage": "https://github.com/heurema/delve"
+            "homepage": "https://github.com/heurema/delve",
+            "version": "0.8.2"
         },
         {
             "name": "genesis",
@@ -82,9 +83,10 @@
             "source": {
                 "source": "url",
                 "url": "https://github.com/heurema/reporter.git",
-                "ref": "v0.1.0"
+                "ref": "v0.1.1"
             },
-            "homepage": "https://github.com/heurema/reporter"
+            "homepage": "https://github.com/heurema/reporter",
+            "version": "0.1.1"
         },
         {
             "name": "sentinel",
@@ -104,10 +106,10 @@
             "source": {
                 "source": "url",
                 "url": "https://github.com/heurema/signum.git",
-                "ref": "v4.17.0"
+                "ref": "v4.17.1"
             },
             "homepage": "https://github.com/heurema/signum",
-            "version": "4.17.0"
+            "version": "4.17.1"
         },
         {
             "name": "teams-field-guide",
@@ -137,9 +139,10 @@
             "source": {
                 "source": "url",
                 "url": "https://github.com/heurema/brainstorm.git",
-                "ref": "v0.2.0"
+                "ref": "v0.2.1"
             },
-            "homepage": "https://github.com/heurema/brainstorm"
+            "homepage": "https://github.com/heurema/brainstorm",
+            "version": "0.2.1"
         }
     ]
 }
