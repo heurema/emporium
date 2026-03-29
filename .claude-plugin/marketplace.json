@@ -16,7 +16,8 @@
                 "url": "https://github.com/heurema/arbiter.git",
                 "ref": "v0.4.1"
             },
-            "homepage": "https://github.com/heurema/arbiter"
+            "homepage": "https://github.com/heurema/arbiter",
+            "version": "0.4.1"
         },
         {
             "name": "content-ops",
