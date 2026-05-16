@@ -106,10 +106,10 @@
             "source": {
                 "source": "url",
                 "url": "https://github.com/heurema/signum.git",
-                "ref": "v4.21.8"
+                "ref": "v4.21.9"
             },
             "homepage": "https://github.com/heurema/signum",
-            "version": "4.21.8"
+            "version": "4.21.9"
         },
         {
             "name": "teams-field-guide",
